@@ -1,0 +1,16 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Arial,sans-serif;background:linear-gradient(180deg,#0f1724,#071127);color:#e6eef8;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:1rem}
+.page{width:420px}
+.clock{background:linear-gradient(180deg,#0b1220,#071127);padding:18px;border-radius:12px;box-shadow:0 14px 40px rgba(0,0,0,0.6);text-align:center}
+h1{margin:0 0 16px;font-size:1.2rem}
+.lengths{display:flex;justify-content:space-between;gap:12px;margin-bottom:18px}
+.length{background:#fff;border-radius:8px;color:#0b1220;padding:10px;flex:1}
+.controls{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
+.controls button{background:#0b1220;color:#fff;border:none;border-radius:6px;padding:6px 10px;cursor:pointer}
+#break-length,#session-length{font-weight:700}
+.timer{background:#fff;color:#0b1220;border-radius:8px;padding:12px;margin-bottom:12px}
+#timer-label{font-weight:700;margin-bottom:6px}
+#time-left{font-size:2rem;font-weight:800}
+.actions{display:flex;gap:10px;justify-content:center}
+.actions button{background:#065f46;color:#fff;border:none;padding:10px 14px;border-radius:8px;cursor:pointer}
+@media (max-width:460px){.page{width:100%}}
